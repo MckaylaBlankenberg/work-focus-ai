@@ -380,13 +380,13 @@ WorkWise AI
 ### 1. Clone the Repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/MckaylaBlankenberg/work-focus-ai.git
 ```
 
 ### 2. Open the Project
 
 ```bash
-cd workwise-ai
+cd work-focus-ai
 ```
 
 ### 3. Install Dependencies
@@ -397,15 +397,15 @@ npm install
 
 ### 4. Configure Environment Variables
 
-Create a local environment file containing the required AI configuration.
+Create a local environment file in the project root if your AI integration requires an API key.
 
-For example:
-
-```text
+```env
 VITE_AI_API_KEY=your_api_key_here
 ```
 
-**Do not commit this file to GitHub.**
+**Important:** Do not commit your `.env` file or API keys to GitHub. Sensitive credentials should be stored securely using environment variables or the platform's secret-management system.
+
+If the current WorkWise AI application uses Lovable's built-in AI integration instead of `VITE_AI_API_KEY`, this section should follow the actual environment-variable configuration used by the project.
 
 ### 5. Start the Development Server
 
@@ -413,9 +413,18 @@ VITE_AI_API_KEY=your_api_key_here
 npm run dev
 ```
 
-The application should then be available through the local development URL provided by the development environment.
+The application should then be available at:
 
----
+```text
+http://localhost:5173
+```
+
+### 6. Live Application
+
+The current WorkWise AI prototype is available at:
+
+https://work-focus-ai.lovable.app/
+
 
 ## 📖 How to Use
 
