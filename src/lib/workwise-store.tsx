@@ -45,7 +45,7 @@ export const DEFAULT_SETTINGS: Settings = {
   breakMinutes: 30,
   defaultPriority: "Medium",
   responseLength: "balanced",
-  theme: "dark",
+  theme: "light",
 };
 
 const SAMPLE_TASKS: Task[] = [
