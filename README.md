@@ -425,6 +425,7 @@ The current WorkWise AI prototype is available at:
 
 https://work-focus-ai.lovable.app/
 
+---
 
 ## 📖 How to Use
 
